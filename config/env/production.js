@@ -151,7 +151,7 @@ module.exports = {
       allowOrigins: '*',
       allowCredentials: false,
       allowRequestMethods: 'GET, POST, PUT, DELETE, OPTIONS, HEAD',
-      allowRequestHeaders: 'Origin, X-Requested-With,content-type,Access-Control-Allow-Origin'
+      allowRequestHeaders: 'Origin, X-Requested-With,content-type,Access-Control-Allow-Origin,Authorization'
     }
 
   },
