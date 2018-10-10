@@ -40,7 +40,7 @@ module.exports.security = {
     allowCredentials: false,
     allowRequestMethods: 'GET, POST, PUT, DELETE, OPTIONS',
     allowRequestHeaders: 'Origin, X-Requested-With,content-type,Access-Control-Allow-Origin,Authorization'
-  }
+  },
 
   /****************************************************************************
   *                                                                           *
@@ -56,6 +56,5 @@ module.exports.security = {
   *                                                                           *
   ****************************************************************************/
 
-  // csrf: false
-
+  csrf: false,
 };
